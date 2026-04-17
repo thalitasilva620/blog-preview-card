@@ -1,0 +1,107 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--color-primary);
+    font-family: var(--font-family-primary);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 350px;
+    border-radius: 1rem;
+    background-color: var(--color-background);
+
+    border: 1px solid var(--color-text);
+    box-shadow: 8px 8px 0 var(--color-text);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 12px 12px 0 var(--color-text);
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 8px;
+}
+
+.sub-title {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 12px 0;
+    width: 100px;
+    height: 25px;
+    background-color: var(--color-primary);
+    border-radius: 5px;
+    font-weight: var(--font-weight-bold);
+}
+
+.content {
+    font-size: var(--font-size-sm, 14px);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text);
+    
+}
+
+.data {
+    font-size: 12px;
+    color: var(--color-text);
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text);
+    margin-bottom: 10px;
+    text-decoration: none;
+    margin-bottom: 13px;
+}
+
+.title:hover {
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.description {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    line-height: 1.3rem;
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 13px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 25px;
+    font-weight: 600;
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+.avatar {
+    width: 30px;
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    font-size: 11px;
+    color:  var(--color-text);
+    padding: 10px;
+    gap: 3px;
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-medium);
+}

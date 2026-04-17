@@ -1,0 +1,17 @@
+:root {
+    /* Colors */
+    --color-primary: hsl(47, 88%, 63%);
+    --color-background: hsl(0, 0%, 100%);
+    --color-text-muted: hsl(0, 0%, 42%);
+    --color-text: hsl(0, 0%, 7%);
+
+    /* Tipografia */
+    --font-family-primary: 'Figtree', sans-serif;
+    
+    --font-size-base: 16px;
+    --font-size-sm: 14px;
+    --font-size-lg: 20px;
+
+    --font-weight-medium: 500;
+    --font-weight-bold: 800;
+}
